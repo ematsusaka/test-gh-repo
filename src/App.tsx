@@ -3,11 +3,12 @@ import PostList from './components/PostList';
 
 function App() {
   return (
-    <div className="app">
-      <header className="app-header">
+    <div className='app'>
+      <header className='app-header'>
         <h1>Demo App</h1>
       </header>
-      <main className="app-main">
+      <main className='app-main'>
+        <h1>hey</h1>
         <UserList />
         <PostList />
       </main>
